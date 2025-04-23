@@ -22,10 +22,23 @@
     <title>Document</title>
   </head>
   <body>
+    <!-- 검색 영역 -->
     <h1>검색 테스트 페이지</h1>
     <div>
       <input type="text" id="searchInput" placeholder="검색어를 입력하세요" />
       <button onclick="handleSearch()">검색</button>
+    </div>
+    <!-- 상품뷰 영역 -->
+    <div class="product">
+      <h2>무선 이어폰</h2>
+      <img
+        src="https://sitem.ssgcdn.com/64/70/86/item/1000557867064_i1_750.jpg"
+        alt="accessary"
+      />
+      <p>가격: 129,000원</p>
+      <button onclick="viewItem()">상품상세 보기</button>
+      <button onclick="addToCart()">장바구니 담기</button>
+      <button onclick="purchase()">구매</button>
     </div>
   </body>
 </html>
